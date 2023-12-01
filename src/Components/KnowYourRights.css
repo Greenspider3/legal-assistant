@@ -1,0 +1,30 @@
+/* KnowYourRights.css */
+
+.rights-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.rights-header {
+  font-size: 24px;
+  color: #333;
+}
+
+.rights-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.rights-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.rights-list li {
+  margin-bottom: 8px;
+}
+
+/* Add more styles as needed */
+

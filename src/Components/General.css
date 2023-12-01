@@ -1,0 +1,115 @@
+
+  
+.container-class {
+  padding: 20px;
+  margin: 20px;
+}
+
+.Business-title {
+  color: #333;
+  margin-top: 20px;
+}
+
+.Business-row1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.Business-column1,
+.Business-column2 {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.Business-column1 p,
+.Business-column2 p {
+  color: white;
+}
+/* Style for the accordion container */
+/* Style for the accordion container */
+#accordion {
+margin: 20px;
+}
+
+/* Style for each accordion item */
+.accordion-item {
+background-color: #e0dfda;
+border: 1px solid #474240;
+border-radius: 5px;
+margin-bottom: 10px;
+overflow: hidden;
+transition: background-color 0.3s ease;
+}
+
+.accordion-item:hover {
+background-color: #f5f4f3;
+}
+
+/* Style for the accordion button */
+.accordion-button {
+background-color: #524d4d;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 15px;
+width: 100%;
+text-align: left;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+background-color: #312121;
+}
+
+/* Style for the collapsed accordion button */
+.accordion-button.collapsed {
+background-color: #f7ebd7;
+}
+
+/* Style for the accordion body */
+.accordion-body {
+padding: 15px;
+}
+
+/* Style for the active accordion item */
+.accordion-item.active {
+background-color: #f5c8c3;
+color: #fff;
+}
+
+.accordion-item.active .accordion-button {
+background-color: #eec3c3;
+}
+
+.accordion-item.active .accordion-button:hover {
+background-color: #c9aeab;
+}
+
+/* Additional style for the search box */
+.searchBox {
+margin-bottom: 20px;
+}
+
+.srchbtn {
+background-color: #e74c3c;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 15px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.srchbtn:hover {
+background-color: #d63031;
+}
+
+/* Additional style for the container */
+.container-class {
+margin-top: 20px;
+}

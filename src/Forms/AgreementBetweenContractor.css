@@ -1,0 +1,52 @@
+.container {
+    max-width: 800px;
+    /* margin: 0 auto; */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  ol {
+    padding-left: 2em;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
+  
+  .lead {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  /* Customize the appearance of your form elements, input fields, buttons, etc. based on your design requirements */
+  
+  /* Example styles, customize as needed */
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Adjust styles for responsive design as needed */
+  @media (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 0.5em;
+    }
+  }
+  
