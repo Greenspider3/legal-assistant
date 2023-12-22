@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #e3edb4;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,32 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-/* App.css */
-
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-.app-container {
-  background-color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100%;
-  margin: 0; /* Remove margin to fill the entire viewport */
-  padding: 0; /* Remove padding to fill the entire viewport */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden;
-  background-image: url("https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
 }
