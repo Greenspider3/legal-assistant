@@ -8,6 +8,8 @@ import AboutUs from './Components/Aboutus';
 import Cards from './Components/Cards';
 
 
+
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import GeneralPage from './Components/GeneralPage';
 import FamilyPage from './Components/FamilyPage';
@@ -27,6 +29,9 @@ import FAQs from './Components/FAQs';
 import KnowYourRightss from './Components/KnowYourRightss';
 import PageNotFound from './Components/PageNotFound';
 import Categories from './Components/Categories';
+import AgreementBetweenContractor from './Forms/AgreementBetweenContractor';
+import Chatbot from './Components/Chatbot';
+import Login from './Login';
 
 
 
@@ -48,6 +53,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Contactus" element={<ContactForm />} />
           <Route path="/Aboutus" element={<AboutUs />} />
+          <Route path="/Chatbot" element={<Chatbot/>}/>
           <Route path="/GeneralPage" element={<GeneralPage/>}/>
           <Route path="/FamilyPage" element={<FamilyPage/>}/>
           <Route path="/BusinessPage" element={<BusinessPage/>}/>
@@ -66,6 +72,10 @@ function App() {
           <Route path="/faqs" element={<FAQs/>}/>
           <Route path="/*" element={<PageNotFound/>}/>
           <Route path="/Categories" element={<Categories/>}/>
+          <Route path="/AgreementBetweenContractor" element={<AgreementBetweenContractor/>}/>
+          <Route path='/Login' element={<Login/>}/>
+        
+
         </Routes>
         <Footer />
       </Router>

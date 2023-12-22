@@ -1,57 +1,13 @@
-
+/* Base styles for the container */
 .container-class {
-    padding: 20px;
-    margin: 20px;
-  }
-  
-  .Work-title {
-    color: #333;
-    margin-top: 20px;
-  }
-  
-  .Work-row1 {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  
-  .Work-column1,
-  .Work-column2 {
-    flex: 1;
-    padding: 10px;
-    text-align: center;
-    background-color: #333;
-    border-radius: 10px;
-  }
-  
-  .Work-column1 p,
-  .Work-column2 p {
-    color: white;
-  }
-  /* Style for the accordion container */
-/* Style for the accordion container */
-#accordion {
+  padding: 20px;
   margin: 20px;
 }
 
-/* Style for each accordion item */
-.accordion-item {
-  background-color: #ffeaa7;
-  border: 1px solid #e17055;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  overflow: hidden;
-  transition: background-color 0.3s ease;
-}
-
-.accordion-item:hover {
-  background-color: #fdcb6e;
-}
-
-/* Style for the accordion button */
+/* Accordion header styles */
 .accordion-button {
-  background-color: #e74c3c;
-  color: #fff;
+  background-color: #4285f4; /* Blue */
+  color: #fff; /* White */
   border: none;
   border-radius: 5px;
   padding: 15px;
@@ -62,53 +18,24 @@
 }
 
 .accordion-button:hover {
-  background-color: #d63031;
+  background-color: #3b73af; /* Slightly darker blue */
 }
 
-/* Style for the collapsed accordion button */
 .accordion-button.collapsed {
-  background-color: #f39c12;
+  background-color: #1c4c87; /* Darker blue */
 }
 
-/* Style for the accordion body */
-.accordion-body {
-  padding: 15px;
-}
-
-/* Style for the active accordion item */
-.accordion-item.active {
-  background-color: #e74c3c;
-  color: #fff;
-}
-
-.accordion-item.active .accordion-button {
-  background-color: #d63031;
-}
-
-.accordion-item.active .accordion-button:hover {
-  background-color: #b53121;
-}
-
-/* Additional style for the search box */
-.searchBox {
-  margin-bottom: 20px;
-}
-
-.srchbtn {
-  background-color: #e74c3c;
-  color: #fff;
-  border: none;
+/* Accordion body styles */
+.accordion-collapse {
+  display: none;
+  background-color: #4d4d4d; /* Dark grey */
   border-radius: 5px;
-  padding: 15px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
 }
 
-.srchbtn:hover {
-  background-color: #d63031;
-}
-
-/* Additional style for the container */
-.container-class {
-  margin-top: 20px;
+/* Display the accordion body when its parent item is expanded */
+.accordion-collapse.show {
+  display: block;
 }

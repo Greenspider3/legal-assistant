@@ -7,54 +7,46 @@ const Categories = () => {
   return (
     <div>
       <header className={styles.header}>
-        <h1>Explore Legal Categories</h1>
+        <h1>Explore Our Services</h1>
       </header>
 
       {/* Bootstrap Carousel */}
       <div id="categoryCarousel" className={`carousel slide ${styles.categoryCarousel}`} data-ride="carousel">
         <div className="carousel-inner">
-          <div className={`carousel-item ${styles.categoryItem} active`}>
+          <a href="/upload-your-docs" className={`carousel-item ${styles.categoryItem} active`}>
             <div className={styles.category}>
-              <img src="https://img.freepik.com/premium-vector/vector-illustration-black-white-style-clenched-fist-held-high-protest_573689-96.jpg?w=740" alt="Know your rights"/>
-              <h2>KNOW YOUR RIGHTS</h2>
-              <a href="/know-your-rights">Explore</a>
-            </div>
-          </div>
-
-          <div className={`carousel-item ${styles.categoryItem}`}>
-            <div className={styles.category}>
+              <img src="documents_1548204.png" alt="Upload Your Docs"/>
               <h2>UPLOAD YOUR DOCUMENTS</h2>
-              <a href="/upload-your-docs">Explore</a>
             </div>
-          </div>
+          </a>
 
-          <div className={`carousel-item ${styles.categoryItem}`}>
+          <a href="/legal-writing" className={`carousel-item ${styles.categoryItem}`}>
             <div className={styles.category}>
+              <img src="https://i.pinimg.com/564x/f8/a4/e4/f8a4e4f25f0c5fd23091afd1c3000da6.jpg" alt="Legal Writing"/>
               <h2>LEGAL WRITING</h2>
-              <a href="/legal-writing">Explore</a>
             </div>
-          </div>
+          </a>
 
-          <div className={`carousel-item ${styles.categoryItem}`}>
+          <a href="/forms-and-waivers" className={`carousel-item ${styles.categoryItem}`}>
             <div className={styles.category}>
+              <img src="job_10485151.png" alt="Forms and Waivers"/>
               <h2>FORMS AND WAIVERS</h2>
-              <a href="/forms-and-waivers">Explore</a>
             </div>
-          </div>
+          </a>
 
-          <div className={`carousel-item ${styles.categoryItem}`}>
+          <a href="/work-page" className={`carousel-item ${styles.categoryItem}`}>
             <div className={styles.category}>
+              <img src="https://img.freepik.com/premium-vector/essay-icon-logo-isolated-sign-symbol-vector-illustration-high-quality-black-style-vector-icons_775815-260.jpg?w=740" alt="Contract Drafting"/>
               <h2>CONTRACT DRAFTING</h2>
-              <a href="/work-page">Explore</a>
             </div>
-          </div>
+          </a>
 
-          <div className={`carousel-item ${styles.categoryItem}`}>
+          <a href="/legal-consultations" className={`carousel-item ${styles.categoryItem}`}>
             <div className={styles.category}>
+              <img src="6f43461d9dfdfd30b4385ad859eadf51.jpg" alt="Legal Consultations"/>
               <h2>LEGAL CONSULTATIONS</h2>
-              <a href="/work-page">Explore</a>
             </div>
-          </div>
+          </a>
         </div>
 
         <a className="carousel-control-prev" href="#categoryCarousel" role="button" data-slide="prev">

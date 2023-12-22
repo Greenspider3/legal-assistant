@@ -1,0 +1,44 @@
+/* LegalConsultations.css */
+
+.legal-consultations {
+    /* Add any additional styling for the main container if needed */
+  }
+  
+  .legal-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .lawyers-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .lawyer-card {
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .lawyer-card img {
+    width: 100%; /* Make the image fill the container width */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%; /* Apply a border-radius for a circular effect */
+    margin-bottom: 15px;
+  }
+  
+  .know-more-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Add any additional styling for the "Know More" button if needed */
+  

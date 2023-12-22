@@ -90,7 +90,7 @@ const LegalFormatsList = () => {
               {formats.map((format, index) => (
                                <li key={index}>
                                {format === 'Agreement Between Contractor And Principal Employer' ? (
-                                 <Link to="/agreement-between-contractor-and-principal-employer">
+                                 <Link to="/AgreementBetweenContractor">
                                    {format}
                                  </Link>
                                ) : (
@@ -98,7 +98,7 @@ const LegalFormatsList = () => {
                                    {format}
                                  </Link>
                                )}
-                             </li>
+                             </li>      
               ))}
             </ul>
           </li>

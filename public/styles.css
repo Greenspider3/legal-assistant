@@ -114,8 +114,6 @@
     width: 800px;
     height: 600px;
     margin: auto;
-    
-
 }
 img{
     width: 100%;
@@ -175,15 +173,12 @@ img{
         transform: translateX(0px);
     }
 }
-
-
 /* Cards css */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
 section{
     position: relative;
 }
@@ -278,22 +273,18 @@ section::before{
     transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
     bottom:200px;
 }
-
 /* Hover effect */
 .three-d-button:hover {
     transform: translateY(3px); /* Shift button downwards on hover */
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Add a shadow */
     background-color: #2980b9; /* Slightly darker background color */
 }
-
 /* Click effect */
 .three-d-button:active {
     transform: translateY(0); /* Reset the transformation when clicked */
     box-shadow: none; /* Remove the shadow when clicked */
     background-color: #3498db; /* Restore the original background color */
 }
-
-
 /* Search Bar css */
 *{
     margin: 0;
@@ -314,9 +305,6 @@ section::before{
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
 .searchBox input{
     position: relative;
     width: 100%;
